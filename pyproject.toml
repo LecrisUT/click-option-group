@@ -67,3 +67,6 @@ build.hooks.vcs.version-file = "src/click_option_group/_version.py"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+
+[tool.coverage]
+run.source = ["src"]
