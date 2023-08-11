@@ -10,7 +10,7 @@ on:
         description: Upload wheel as an artifact
   pull_request:
   push:
-    branches: [ main ]
+    branches: [ master ]
 
 permissions:
   contents: read
