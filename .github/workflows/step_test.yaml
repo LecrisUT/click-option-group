@@ -33,7 +33,7 @@ jobs:
           allow-prereleases: true
 
       - name: Install package
-        run: pip install -e.[test_cov]
+        run: pip install -e .[test_cov]
       - name: Test package
         run: pytest --cov --cov-report=xml
       - name: Upload coverage report
