@@ -40,7 +40,7 @@ dependencies = [
 test = [
     "pytest",
 ]
-test_cov = [
+test-cov = [
     "click-option-group[test]",
     'pytest-cov',
 ]
